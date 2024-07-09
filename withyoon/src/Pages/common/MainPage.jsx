@@ -7,6 +7,7 @@ export default function MainPage() {
             <h1>Hello finally we started a project tohether haha! 😃</h1>
             <hr />
             <div className="MainPage_firstProject">
+                <h3>🥐 first Practice</h3>
                 <span className="MainPage_ProjectName"><Link to="/Sam_page1" >Sam_page1</Link></span>
                 <span className="MainPage_ProjectName"><Link to="/Yoon_page1" >Yoon_page1</Link></span>
             </div>
