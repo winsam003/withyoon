@@ -1,0 +1,176 @@
+.Sam_page1_containor {
+    background-color: aqua;
+
+    margin: 0;
+
+    width: 100vw;
+    height: auto;
+}
+
+
+/* ===========================================Header Start=========================================== */
+.Sam_page1_header {
+    background-color: bisque;
+
+    width: 100vw;
+    height: 3rem;
+}
+
+.Sam_page1_menu {
+    background-color: blue;
+
+    width: 1080px;
+    height: 3rem;
+}
+
+.Sam_page1_body {
+    background-color: chartreuse;
+
+    width: 1080px;
+    height: calc(100% - 6rem - 25%);
+}
+
+.Sam_page1_footer {
+    background-color: burlywood;
+
+    width: 1080px;
+    height: 30%;
+}
+
+.Sam_page1_TopMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+}
+
+.Sam_page1_opggLogo {
+    display: flex;
+    align-items: center;
+}
+
+.Sam_page1_opggLogo::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../../public/image/opggLogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Sam_page1_TopLeftMenu {
+    display: grid;
+
+    grid-template-columns: 10fr 9fr 10fr repeat(6, 9fr);
+}
+
+.Sam_page1_TopRightMenu {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr) 1.5fr;
+}
+
+.Sam_page1_TopRightAll, .Sam_Page1_TopLeftAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: small;
+}
+
+.Sam_Page1_ReactIcon{
+    margin-right: .5rem;
+}
+/* ===========================================Header End=========================================== */
+
+
+/* ===========================================Main Start=========================================== */
+
+.Sam_page1_main{
+    width: 100vw;
+    height: calc(100% - 3rem);
+
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.Sam_page1_menu{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sam_page1_subLeftMenu{
+    display: grid;
+
+    grid-template-columns: repeat(9, 5rem);
+}
+
+.Sam_page1_subRightMenu {
+    display: grid;
+
+    grid-template-columns: repeat(1, 10rem);
+}
+
+.sam_Page1_subLeftAll, .sam_Page1_subRightAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: smaller;
+}
+
+.Sam_page1_body{
+    display: flex;
+
+    flex-direction: column;
+
+    height: 60rem;
+}
+
+.Sam_Page1_body1{
+    display: inherit;
+    background-color: blanchedalmond;
+
+    flex: 4 1 auto;
+
+    justify-content: center;
+    align-items: center;
+}
+.Sam_Page1_body2{
+    display: inherit;
+    background-color: cornflowerblue;
+
+    flex: 2 1 auto
+}
+.Sam_Page1_body3{
+    display: inherit;
+    background-color: darkolivegreen;
+
+    flex: 3 1 auto
+}
+.Sam_Page1_body4{
+    display: inherit;
+    background-color: darkorange;
+
+    flex: 6 1 auto
+}
+
+.sam_Page_middleImg{
+    width: 30rem;
+    height: 15rem;
+
+    background-image: url('../../../public/image/middle.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/* ===========================================Main End=========================================== */
