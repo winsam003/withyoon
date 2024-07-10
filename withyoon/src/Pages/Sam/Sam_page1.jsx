@@ -55,12 +55,92 @@ export default function Sam_page1() {
                         <span className='sam_Page_middleImg'></span>
                     </div>
                     <div className='Sam_Page1_body2'>
-                        <div>
-                            <input type='text'></input>
+                        <div className='Sam_Page1_inputBox'>
+                            <div className='Sam_Page1_inputBoxChild Sam_Page1_inputBoxChild1'>
+                                <span>지역</span>
+                                <span>검색</span>
+                            </div>
+                            <div className='Sam_Page1_inputBoxChild'>
+                                <select className='Sam_Page1_Select'>
+                                    <option>korea</option>
+                                    <option>japan</option>
+                                    <option>china</option>
+                                    <option>North America</option>
+                                </select>
+                                <input type='text' placeholder='플레이어 이름 + #KR1' className='Sam_Page1_input' />
+                            </div>
                         </div>
                     </div>
-                    <div className='Sam_Page1_body3'>3</div>
-                    <div className='Sam_Page1_body4'>4</div>
+                    <div className='Sam_Page1_body3'>
+                        <div className='Sam_Page1_adverBox'>
+                            <div className='Sam_Page1_adver1'>광</div>
+                            <div className='Sam_Page1_adver2'>고</div>
+                        </div>
+                    </div>
+                    <div className='Sam_Page1_body4'>
+                        <div className='Sam_Page1_info'>
+                            <div className='Sam_Page1_infoLeft'>
+                                <div className='Sam_Page_infoLeft_title'>OP.GG Talk 인기글</div>
+                                <div className='Sam_Page1_infoLeft_detail'>
+                                    <span>1</span>
+                                    <span>사진</span>
+                                    <div>
+                                        <div>원터밤</div>
+                                        <div>시간전</div>
+                                    </div>
+                                </div>
+                                <div className='Sam_Page1_infoLeft_detail'>
+                                    <span>2</span>
+                                    <span>사진</span>
+                                    <div>
+                                        <div>원터밤</div>
+                                        <div>시간전</div>
+                                    </div>
+                                </div>
+                                <div className='Sam_Page1_infoLeft_detail'>
+                                    <span>3</span>
+                                    <span>사진</span>
+                                    <div>
+                                        <div>원터밤</div>
+                                        <div>시간전</div>
+                                    </div>
+                                </div>
+                                <div className='Sam_Page1_infoLeft_detail'>
+                                    <span>4</span>
+                                    <span>사진</span>
+                                    <div>
+                                        <div>원터밤</div>
+                                        <div>시간전</div>
+                                    </div>
+                                </div>
+                                <div className='Sam_Page1_infoLeft_detail'>
+                                    <span>5</span>
+                                    <span>사진</span>
+                                    <div>
+                                        <div>원터밤</div>
+                                        <div>시간전</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className='Sam_Page1_infoRight'>
+                                <div>이미지일듯</div>
+                                <div>
+                                    <div>2</div>
+                                    <div>3</div>
+                                    <div>4</div>
+                                    <div>5</div>
+                                    <div>6</div>
+                                    <div>7</div>
+                                </div>
+                                <div>8</div>
+                                <div>
+                                    <div>9</div>
+                                    <div>10</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='Sam_page1_footer'>footer</div>
             </div>
