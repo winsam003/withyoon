@@ -124,25 +124,108 @@ export default function Sam_page1() {
 
                             </div>
                             <div className='Sam_Page1_infoRight'>
-                                <div>이미지일듯</div>
-                                <div>
-                                    <div>2</div>
-                                    <div>3</div>
-                                    <div>4</div>
-                                    <div>5</div>
-                                    <div>6</div>
-                                    <div>7</div>
-                                </div>
-                                <div>8</div>
-                                <div>
-                                    <div>9</div>
-                                    <div>10</div>
+                                <div className='Sam_Page1_infoRightTop'>이미지일듯</div>
+                                <div className='Sam_Page1_infoRightBox'>
+                                    <div className='Sam_Page1_StandingMenu'>
+                                        <div className='Sam_Page1_StandingMenuBox'>
+                                            <div>Standing</div>
+                                            <div className='Sam_Page1_StadingMenu'>
+                                                <span>Team</span>
+                                                <span>Player</span>
+                                            </div>
+                                        </div>
+                                        <div className='Sam_Page1_Ranking'>
+                                            <div className='Sam_Page1_Rankingin'>
+                                                <span>1</span>
+                                                <span>GEN</span>
+                                                <span>7W 0L</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div className='Sam_Page1_Rankingin'>
+                                                <span>1</span>
+                                                <span>GEN</span>
+                                                <span>7W 0L</span>
+                                                <span>14</span>                                            
+                                            </div>
+                                            <div className='Sam_Page1_Rankingin'>
+                                                <span>1</span>
+                                                <span>GEN</span>
+                                                <span>7W 0L</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div className='Sam_Page1_Rankingin'>
+                                                <span>1</span>
+                                                <span>GEN</span>
+                                                <span>7W 0L</span>
+                                                <span>14</span>
+                                            </div>
+                                            <div className='Sam_Page1_Rankingin'>
+                                                <span>1</span>
+                                                <span>GEN</span>
+                                                <span>7W 0L</span>
+                                                <span>14</span> 
+                                            </div>
+                                            <div className='Sam_Page1_Rankingin'>
+                                                <span>1</span>
+                                                <span>GEN</span>
+                                                <span>7W 0L</span>
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='Sam_Page1_scheduleMenu'>
+                                        <div className='Sam_Page1_StandingMenuBox'>
+                                            <div>Schedule</div>
+                                            <div className='Sam_Page1_date'>
+                                                <span>2024-07-12</span>
+                                            </div>
+                                        </div>
+                                        <div className='Sam_Page1_match'>
+                                            <div>매치사진1</div>
+                                            <div>매치사진2</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='Sam_page1_footer'>footer</div>
+                <div className='Sam_page1_footer'>
+                    <div className='Sam_page1_footerBox'>
+                        <ul className='Sam_page1_footerList'>
+                            <li>OP.GG</li>
+                        </ul>
+                        <ul className='Sam_page1_footerList'>
+                            <li>op.gg</li>
+                            <li>About OP.GG</li>
+                            <li>Company</li>
+                            <li>Blog</li>
+                            <li>로고 히스토리</li>
+                        </ul>
+                        <ul className='Sam_page1_footerList'>
+                            <li>Products</li>
+                            <li>리그 오브 레전드</li>
+                            <li>전략적 팀 전투</li>
+                            <li>배틀그라운드</li>
+                        </ul>
+                        <ul className='Sam_page1_footerList'>
+                            <li>Apps</li>
+                            <li>OP.GG for Mobile Android</li>
+                            <li>OP.GG for Mobile IOS</li>
+                        </ul>
+                        <ul className='Sam_page1_footerList'>
+                            <li>Resources</li>
+                            <li>개인정보처리방침</li>
+                            <li>이용약관</li>
+                        </ul>
+                        <ul className='Sam_page1_footerList'>
+                            <li>More</li>
+                            <li>제휴</li>
+                            <li>광고</li>
+                            <li>채용</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     )
