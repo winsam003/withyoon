@@ -27,7 +27,7 @@ export default function MainPage() {
             </div>
             <hr />
             <div>
-                <span onClick={apiTest}>apiCall</span>
+                <span className="MainPage_ProjectName" onClick={apiTest}>백엔드연동데스트</span>
             </div>
             <hr />
         </div>
