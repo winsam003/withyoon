@@ -11,6 +11,7 @@ export default function MainPage() {
                 alert(response);
             }).catch((error) => {
                 alert("실패");
+                alert(error);
             })
     }
 
