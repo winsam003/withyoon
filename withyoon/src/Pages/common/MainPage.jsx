@@ -23,6 +23,9 @@ export default function MainPage() {
                 <span className="MainPage_ProjectName"><Link to="/Sam_page1" >Sam_page1</Link></span>
                 <span className="MainPage_ProjectName"><Link to="/Yoon_page1" >Yoon_page1</Link></span>
 
+            </div>
+            <hr />
+            <div>
                 <span onClick={apiTest}>apiCall</span>
             </div>
             <hr />

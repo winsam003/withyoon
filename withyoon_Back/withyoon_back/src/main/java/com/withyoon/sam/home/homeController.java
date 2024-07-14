@@ -11,7 +11,7 @@ public class homeController {
 	@GetMapping("/home")
 	public String test() {
 		System.out.println("TEST");
-		return "성공인가요?";
+		return "백에서보내는 메시지: 백이랑 연동은 성공했으나 근데 톰캣이 연동이 안되는 이슈가 여전함..";
 	}
 
 }
