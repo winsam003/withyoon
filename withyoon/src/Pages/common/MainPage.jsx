@@ -15,6 +15,16 @@ export default function MainPage() {
             })
     }
 
+    function JDBCtest() {
+        apiCall("/home/JDBCtest", "GET", null, null)
+            .then((response) => {
+                console.log(JSON.stringify(response));
+                alert("성공 콘솔창 확인");
+            }).catch((error) => {
+                alert(error);
+            })
+    }
+
     return (
         <div className="MainPage_Containor">
             <h1>Hello finally we started a project tohether haha! 😃</h1>
@@ -27,7 +37,8 @@ export default function MainPage() {
             </div>
             <hr />
             <div>
-                <span onClick={apiTest}>apiCall</span>
+                <span className="MainPage_ProjectName" onClick={apiTest}>프론트-백엔드 연동테스트</span>
+                <span className="MainPage_ProjectName" onClick={JDBCtest}>백엔드-DB 연동테스트</span>
             </div>
             <hr />
         </div>
