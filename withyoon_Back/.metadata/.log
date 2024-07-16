@@ -10593,3 +10593,18 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 13 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-16 21:41:08.112
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NSmKRBMP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-16 21:41:08.112
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NSmKRBMP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-16 21:41:08.112
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-16 21:41:08.112
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NSmKRBMP => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-07-16 21:41:12.370
+!MESSAGE The workspace will exit with unsaved changes in this session.
