@@ -19,7 +19,8 @@ export default function MainPage() {
         apiCall("/home/JDBCtest", "GET", null, null)
             .then((response) => {
                 console.log(JSON.stringify(response));
-                alert("성공 콘솔창 확인");
+                alert("성공");
+                alert("F12 콘솔창 확인");
             }).catch((error) => {
                 alert(error);
             })
